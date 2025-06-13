@@ -488,3 +488,7 @@ git bisect reset
   - [ ] Buenas prácticas de Pull Requests: nombres de ramas, descripciones, revisiones
   - [ ] Git Hooks básicos (pre-commit, commit-msg) y herramientas (Husky, lint-staged)
   - [ ] Introducción a GitHub Actions para CI/CD
+
+
+
+  git added new feature
