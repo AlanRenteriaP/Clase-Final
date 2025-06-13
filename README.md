@@ -71,7 +71,7 @@ touch ignorame.txt
 ```
 - [ ] Agregarlo a `.gitignore`:
 ```bash
-echo ignorame.txt >> .gitignore
+echo (.ignorame.txt  o ignorame.txt)? >> .gitignore
 ```
 - [ ] Confirmar que no se añade a staging:
 ```bash
