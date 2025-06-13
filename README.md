@@ -22,12 +22,12 @@ tags: [git, práctica, clase-final, ramas, staging]
 > ✨ **Tip:** Usa un nombre descriptivo (por ejemplo, tu nombre o matrícula).
 
 #### 📋 Tareas:
-- [ ] Crear una nueva rama:
+- [x] Crear una nueva rama:
 ```bash
 git checkout -b nombre_del_alumno
 ```
-- [ ] Realizar cambios en el proyecto.
-- [ ] Agregar los cambios al área de staging:
+- [x] Realizar cambios en el proyecto.
+- [x] Agregar los cambios al área de staging:
 ```bash
 git add .
 ```
