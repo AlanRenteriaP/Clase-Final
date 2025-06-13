@@ -75,6 +75,22 @@ touch ignorame.txt
 ```
 - [ ] Agregarlo a `.gitignore`:
 ```bash
+echo ignorame.txt >> .gitignore
+```
+- [ ] Confirmar que no se añade a staging:
+```bash
+git status  # asegúrate de que ignorame.txt no aparece como archivo a commitear
+```
+### 🔒 Paso 5: Crear un archivo ignorado
+
+> 🕶️ Buenas prácticas: evitar subir archivos innecesarios
+
+- [ ] Crear un archivo llamado `ignorame.txt`:
+```bash
+touch ignorame.txt
+```
+- [ ] Agregarlo a `.gitignore`:
+```bash
 echo (.ignorame.txt  o ignorame.txt)? >> .gitignore
 ```
 - [ ] Confirmar que no se añade a staging:
