@@ -312,6 +312,10 @@ git log --oneline
 git log --oneline --graph --decorate --all
 ```
 
+```bash
+git config --global alias.historia "!git --no-pager log --oneline --graph --decorate --all"
+```
+
 🧠 Esto te muestra los *hashes* (IDs únicos) de cada commit, que usarás para moverte.
 
 ---
@@ -483,9 +487,7 @@ git bisect reset
 
 
 
-- [ ] **Colaboración y automatización (30 min)**
-  - [ ] Comparativa de flujos: GitHub Flow, Git Flow, Trunk-based
-  - [ ] Buenas prácticas de Pull Requests: nombres de ramas, descripciones, revisiones
+- [ ] **Colaboración y automatización**
   - [ ] Git Hooks básicos (pre-commit, commit-msg) y herramientas (Husky, lint-staged)
   - [ ] Introducción a GitHub Actions para CI/CD
 
