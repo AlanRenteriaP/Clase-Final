@@ -6,6 +6,7 @@ summary: "Actividad final para reforzar conceptos clave de Git mediante una prá
 tags: [git, práctica, clase-final, ramas, staging]
 ---
 
+
 # 🎓 Clase Final — ¡Nuestra Última Práctica! 🎉
 
 > 💭 **Contexto:** Hoy consolidamos todo lo aprendido clonando el repositorio y sentando las bases del proyecto.
@@ -14,7 +15,10 @@ tags: [git, práctica, clase-final, ramas, staging]
 
 ---
 
-## 🚀 ¡Sigamos con el siguiente paso!
+> 🚀 ¡Sigamos con el siguiente paso!
+
+
+# Fundamentos y Flujo Básico (Mini Repaso) 
 
 ### 🔹 Paso 2: Crear tu propia branch y hacer commit
 
@@ -77,29 +81,80 @@ echo (.ignorame.txt  o ignorame.txt)? >> .gitignore
 ```bash
 git status  # asegúrate de que ignorame.txt no aparece como archivo a commitear
 ```
+<br>
+<br>
+<br>
+
+
+# "Git — Configuración Avanzada y Atajos"
+
+## 🧩 Paso 1: Definir Aliases
+> ✨ Los *aliases* te permiten escribir comandos más cortos sin perder funcionalidad.
+
+```bash
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
+
+✅ Ahora puedes usar:
+```bash
+git co main      # en lugar de git checkout main
+git ci -m "msg"   # en lugar de git commit -m "msg"
+```
 
 ---
 
-## ✅ Fundamentos y Flujo Básico (Mini Repaso)
+## 🎨 Paso 2: Personalizar colores y editor por defecto
 
-- [ ] Revisión del flujo: `staging → commit → push`
-- [ ] Uso correcto de `.gitignore` y archivos de configuración
-- [ ] Mini ejercicio:
-    - Crear nuevo repo local
-    - Crear archivo
-    - Hacer `git add` + `commit`
+### 🔧 Colores
+Activa colores para una mejor lectura:
+```bash
+git config --global color.ui auto
+```
+
+### 📝 Editor por defecto (ej. VS Code)
+```bash
+git config --global core.editor "code --wait"
+```
+O con Neovim:
+```bash
+git config --global core.editor "nvim"
+```
+
+---
+
+## 🚀 Paso 3: Atajos útiles
+
+| Comando | Descripción |
+|---------|-------------|
+| `git shortlog` | Muestra resumen de commits por autor. Ideal para ver contribuciones. |
+| `git describe` | Muestra el último tag alcanzable desde HEAD. Útil para versiones. |
+| `git diff --staged` | Muestra diferencias de lo que se ha agregado al staging. |
+
+### Ejemplos:
+```bash
+git shortlog -sn
+#   42  Alan Renteria
+#    8  Otro Alumno
+
+# Último tag:
+git describe --tags
+
+# Ver cambios ya añadidos al staging:
+git diff --staged
+```
+
+---
 
 
 
-- [ ] **Fundamentos y flujo básico**
-  - [ ] Repaso rápido de staging → commit → push
-  - [ ] Uso de `.gitignore` y archivos de configuración
-  - [ ] Mini-ejercicio guiado: crear un repo y tu primer commit
 
-- [ ] **Configuración avanzada y atajos**
-  - [ ] Definir aliases (`git config --global alias.co checkout`, etc.)
-  - [ ] Personalizar colores y editor por defecto
-  - [ ] Atajos útiles: `git shortlog`, `git describe`, `git diff --staged`
+
+
+
+
 
 - [ ] **Gestión de ramas**
   - [ ] Estrategias: ramas _feature_, _hotfix_ y _release_
