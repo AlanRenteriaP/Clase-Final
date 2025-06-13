@@ -42,12 +42,12 @@ git commit -m "Iniciando práctica en branch nombre_del_alumno"
 
 > 🗂️ Estructura mínima del proyecto
 
-- [ ] Crear una carpeta `js/` y otra `html/`
-- [ ] Dentro de cada una, crear un archivo `index`:
+- [x] Crear una carpeta `js/`
+- [x] Crea el archivo `js/index.js` y index.html
 ```bash
 mkdir js html
 cd js && touch index.js
-cd ../html && touch index.html
+touch index.html
 ```
 
 ---
@@ -60,6 +60,7 @@ cd ../html && touch index.html
 ```bash
 git add .
 ```
+
 
 ---
 
