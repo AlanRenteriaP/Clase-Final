@@ -11,7 +11,7 @@ tags: [git, práctica, clase-final, ramas, staging]
 
 > 💭 **Contexto:** Hoy consolidamos todo lo aprendido clonando el repositorio y sentando las bases del proyecto.
 
-- [x] **Estado:** Repositorio clonado ✅
+- [ ] **Estado:** Repositorio clonado ✅
 
 ---
 
@@ -26,12 +26,12 @@ tags: [git, práctica, clase-final, ramas, staging]
 > ✨ **Tip:** Usa un nombre descriptivo (por ejemplo, tu nombre o matrícula).
 
 #### 📋 Tareas:
-- [x] Crear una nueva rama:
+- [ ] Crear una nueva rama:
 ```bash
 git checkout -b nombre_del_alumno
 ```
-- [x] Realizar cambios en el proyecto.
-- [x] Agregar los cambios al área de staging:
+- [ ] Realizar cambios en el proyecto.
+- [ ] Agregar los cambios al área de staging:
 ```bash
 git add .
 ```
@@ -46,8 +46,8 @@ git commit -m "Iniciando práctica en branch nombre_del_alumno"
 
 > 🗂️ Estructura mínima del proyecto
 
-- [x] Crear una carpeta `js/`
-- [x] Crea el archivo `js/index.js` y index.html
+- [ ] Crear una carpeta `js/`
+- [ ] Crea el archivo `js/index.js` y index.html
 ```bash
 mkdir js html
 cd js && touch index.js
